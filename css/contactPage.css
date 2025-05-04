@@ -1,0 +1,35 @@
+body{
+    margin: 30%;
+    margin-top: 3%;
+    border: 1px solid black;
+}
+header{
+    border-bottom: 1px solid black;
+    margin: 5px;
+}
+h1{
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.formDiv{
+    margin: 20px;
+    margin-bottom: 0;
+    border:1px solid black;
+}
+div{
+    margin: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.subButtons{
+    margin:20px;
+    margin-top: 0;   
+}
+.location
+{
+    border-bottom: 1px solid black;
+    margin: 20px;
+}
+.copyright{
+    margin: 20px;
+}

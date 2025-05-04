@@ -5,7 +5,7 @@ body{
 }
 header{
     border-bottom: 1px solid black;
-    margin: 5px;
+    margin: 20px;
 }
 
 div{
@@ -15,5 +15,12 @@ div{
 tr,th,td {
     border: 1px solid black ;
 }
-
-
+.about{
+    margin: 20px;
+}
+.menu{
+    margin: 20px ;
+}
+ footer{
+    margin: 20px;
+ }

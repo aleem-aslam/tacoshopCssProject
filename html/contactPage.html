@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="../css/contactPage.css">
+</head>
+<body>
+    <header id="intro">
+        <h1 id="top">
+            Contact Us
+        </h1>
+        <nav>
+            <ul>
+               
+                <li><a href="./index.html">About LTS</a></li>
+                <li><a href="./index.html">Our Menu</a></li>
+                <li><a href="./contactPage.html">Contact Us</a></li>
+                
+            </ul>
+        </nav>
+        <figure>
+            <img src="../img/tacos_close_up_400x260.png" alt="">
+            <figcaption>Tacos and Drinks</figcaption>
+        </figure>
+    </header>
+    <h1>
+        Our Contact Form
+    </h1>
+    <!--Form page for contact information-->
+    
+    <div class="formDiv">
+          <p>Send Us Message</p> 
+    <form action="">
+        <div>
+            <label for="fname">Name:</label>
+            <input type="text" name="fname" id="fname" placeholder="First Name">
+        </div>
+        <br>
+        <div>
+            <label for="lname">Email:</label>
+            <input type="email" name="email" id="email" placeholder="your email">
+        </div>
+        <br>
+        <div class="message">
+            <label for="message">Your Message:</label>
+            <br>
+            <textarea name="meassage" id="message" rows="10" cols="30" placeholder="type your message here" ></textarea>
+            <!-- <input type="textarea" size="50" name="message" id="message" placeholder="type your message here" > -->
+        </div>
+        <br> <br>       
+    </form>
+</div>
+<!-- div for submit and reset button -->
+<div class="subButtons">
+    <input type="submit">
+<input type="reset" name="reset" id="reset">
+</div>
+<!-- location div -->
+<div class="location">
+    <h2>Our Location</h2>
+    <p>555 Taco Tamptation Line, Suite T <br>
+    Kansas City, MO 55555 5555 5555</p>
+    <span>Phone:</span> <a href="tel:+">555-555-555</a>
+    <br><br>
+    <a href="#top">Back to Top</a>
+    <br><br>
+</div>
+<p class="copyright">Copyright @ The Little Taco Shop</p>
+</body>
+</html>
